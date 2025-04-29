@@ -12,6 +12,24 @@
 ## Requirements
 - PHP Spreadsheet Library: PhpSpreadsheet
 
+## Installation of Library
+Clone or copy this module into your Magento installation:
+
+``` app/code/PinBlooms/CatalogImageExport```
+
+Run the following Magento CLI commands:
+
+```sh
+bin/magento module:enable YourVendor_CatalogImageExport
+bin/magento setup:upgrade
+bin/magento cache:flush
+```
+
+Install the required PHP library via Composer:
+```
+composer require phpoffice/phpspreadsheet
+```
+
 ## Installation
 ### 1. Download and Extract
 Clone or download the module into your Magento 2 installation:
