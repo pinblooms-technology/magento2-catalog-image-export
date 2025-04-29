@@ -20,7 +20,7 @@ Clone or copy this module into your Magento installation:
 Run the following Magento CLI commands:
 
 ```sh
-bin/magento module:enable YourVendor_CatalogImageExport
+bin/magento module:enable PinBlooms_CatalogImageExport
 bin/magento setup:upgrade
 bin/magento cache:flush
 ```
@@ -50,7 +50,7 @@ After a successful installation, you can find this module under:
 - Go to Admin Panel → Catalog → Products.
 - Select one or more products using the checkbox.
 - From the "Actions" dropdown, choose "Export Products".
-- An .xlsx file will automatically download in your browser containing exported data with image information.
+- An .xlsx file will automatically download in your browser, containing exported data with image information.
 
   ![image (26)](https://github.com/user-attachments/assets/b7743370-f6bb-4b09-8393-fff716c66a85)
 
