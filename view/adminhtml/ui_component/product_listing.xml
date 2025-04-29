@@ -1,0 +1,18 @@
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <listingToolbar name="listing_top">
+        <massaction name="listing_massaction">
+            <!-- <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="component" xsi:type="string">Mageplaza_MassProductActions/js/grid/massactions</item>
+                </item>
+            </argument> -->
+            <action name="custom_export_action">
+                <settings>
+                    <type>export</type>
+                    <label translate="true">Export Products</label>
+                    <url path="productexport/index/export"/>
+                </settings>
+            </action>
+        </massaction>
+    </listingToolbar>
+</listing>
